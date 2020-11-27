@@ -1,0 +1,195 @@
+html{
+	font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{ 
+    color: white;
+}
+
+header{
+    color: white; 
+    text-decoration: none;
+    display: block;
+    background-color: black; 
+    border-bottom: 10px solid black;
+    text-align: center; 
+    font-family: 'Satisfy', cursive;
+    font-size: 30px; 
+}
+nav {
+    list-style: none;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+a { 
+    padding: 10px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+img{width: 70%}
+
+.volver {
+    flex-flow: wrap;
+    position: absolute;
+    top: 60%;
+    right: 70%;
+}
+
+.t1 h1 {text-align: center;
+    flex-flow: wrap;
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    color: #3E1211;
+}
+
+.t2 h2 {text-align: center;
+    flex-flow: wrap;
+    position: absolute;
+    top: 22%;
+    right: 25%;
+    color: #3E1211;
+}
+
+
+
+.cuerpo {
+    z-index: 5;
+    flex-flow: wrap;
+    position: absolute;
+    top: 340px;
+    right: 180px;
+}
+
+
+
+
+.cara { 
+    z-index: 10;
+    flex-flow: wrap;
+    position: absolute;
+    top: 360px;
+    right: 860px;
+    animation-name: anim1;
+	animation-duration: 1.7s;
+	animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.cara img { width: 100%;}
+
+.nota {
+    z-index: 20;
+    flex-flow: wrap;
+    position: absolute;
+    width: 98px;
+    top: 390px;
+    right: 750px;
+    animation-name: anim2;
+	animation-duration: 1.6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+.nota img {
+    width: 100%;
+}
+.palillo {
+    z-index: 40;
+    flex-flow: wrap;
+    position: absolute;
+    width: 12%;
+    top: 578px;
+    right: 490px;
+    animation-name: anim3;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+.vinilo {
+    z-index: 30;
+    flex-flow: wrap;
+    position: absolute;
+    width: 18%;
+    top: 603px;
+    right: 519px;
+    animation-name: anim4;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
+
+@keyframes anim1 {
+	0%{
+		transform: rotate(-5deg);
+	}
+
+	50%{
+		transform: rotate(15deg);
+    }
+    100%{
+		transform: rotate(-5deg);
+	}
+
+}
+
+@keyframes anim2 {
+	0%{
+		transform: translateX(0px);
+		
+    }
+    50%{
+		transform: translateX(20px);
+		
+	}
+
+	100%{
+		transform: translateX(0px);
+		
+	}
+}
+
+@keyframes anim3 {
+	0%{
+		transform: rotate(-2deg);
+	}
+
+	50%{
+		transform: rotate(10deg);
+    }
+    100%{
+		transform: rotate(-2deg);
+	}
+
+}
+
+@keyframes anim4 {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+

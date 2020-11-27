@@ -1,0 +1,435 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+    color: white; 
+    text-decoration: none;
+    background-color: black; 
+    text-align: center; 
+    font-family: 'Satisfy', cursive;
+    font-size: 30px; 
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+}
+.espacio {
+    height: 100px;
+}
+header div a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+footer{
+    background-color: black;
+    font-size: 30px ;
+    text-align: center; 
+    border:solid black; 
+    padding-top: 0px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+footer h1 {
+    font-size: 30px;
+    position: relative;
+    padding-right: 20%;
+    padding-top: 5px;
+}
+
+footer p {
+    position: relative;
+    padding-top: 10px;
+}
+
+footer img {
+    width: 60px;
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url('img/fondo.jpg');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.row {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 10px;
+}
+
+.col {
+    font-family: 'Fjalla One', sans-serif;
+}
+.col h2 {
+    padding-top: 10px;
+}
+.col img {
+    width: 100%;
+    height: 100%;
+}
+
+.inicio {
+    font-family: 'Fjalla One', sans-serif;
+}
+.inicio h2 {
+    padding-top: 10px;
+}
+.inicio img {
+    width: 100%;
+    height: 100%;
+}
+
+.cajaimg:hover {
+    z-index: 6;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.contimg {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+.contimg img {
+    width: 100%;
+}
+
+.contimg .overlay {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5 ease-in-out;
+}
+.contimg:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+.overlay h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+
+.form {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+}
+
+.custom-control {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+.enviar {
+    display: flex;
+    justify-content: center;
+}
+
+/* Carrera */
+
+.carrera img {
+    width: 100%;
+}
+
+.imgm img {
+    width: 100%;
+}
+
+.col-12 p {
+    margin-block-start: 10px;
+    margin-block-end: 0;
+}
+
+
+.col-6 p {
+    margin-block-end: 3px;
+}
+
+.texto {
+    padding-left: 0%;
+}
+
+/* FIN Carrera */
+
+/* Supermarket */
+
+.fondosm {
+    background-image: url('img/supermarket.png');
+}
+
+.supermarket {
+    background-color: rgba(244, 179, 63, 1);
+    margin-top: 40px;
+    
+}
+
+.supermarket h2 {
+    color: white;
+}
+
+
+.supermarket p {
+    color: white;
+    font-size: 20px;
+}
+
+.soundtrack img {
+    width: 65%;
+}
+.soundtrack {
+    display: flex;
+    justify-content: center;
+}
+.soundtrack h2 {
+    font-size: 50px;
+}
+
+/* FIN Supermarket */
+
+/* CV */
+
+.cv {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#contenedor {
+    width: 65%;
+    background-color: rgba(255,255,255,0.6);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contenedor div {
+    display: flex;
+    padding: 20px;
+}
+
+.cara {
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.cara img {
+    width: 200px;
+    height: 239px;
+    border: 6px solid black;
+    border-radius: 5px;
+}
+
+.menu {
+    font-family: 'Fjalla One', sans-serif;
+    width: 55%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu a { 
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    border: 6px solid orange;
+}
+
+.menu a:hover {color: white; background-color: dimgrey}
+
+.info {
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    flex-flow: wrap;
+    background-color: black;
+    color: white;
+    width: 850px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.info h1 {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 300px;
+    text-align: left;
+}
+.info p {
+    position: relative;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.premios {
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    flex-flow: wrap;
+    background-color: black;
+    color: white;
+    width: 850px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.premios h1 {
+    padding: 10px;
+}
+
+.redes {
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    flex-flow: wrap;
+    background-color: black;
+    color: white;
+    width: 850px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.redes h1 {
+    padding: 10px;
+    padding-right: 300px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px)
+{
+    header {
+        width: 100%;
+    }
+    footer {
+        font-size: 40px;
+    }
+    nav ul {
+        display: block;
+    }
+    #contenedor {
+        width: 95%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu a {
+        width: 95%; margin: 3%;
+    }
+    .info {
+        width: 95%;
+    }
+    .premios {
+        width: 95%;
+    }
+    .redes {
+        width: 95%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 599px)
+{ 
+    header {
+        width: 100%;
+        padding: 0%;
+    }
+    footer {
+        font-size: 40px;
+    }
+    nav ul {
+        display: block; width: 100%;}
+
+    #contenedor { 
+        width: 100%; margin: 3%; flex-flow: wrap;
+    }
+    #contenedor div {
+        width: 96%; 
+    }
+    section { 
+        width: 95%; margin: 3% 
+    }
+    img { 
+        max-width: 100%; display: block
+    }
+    .cara {
+        justify-content: center;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu a {
+        width: 95%; margin: 3%;
+        height: 70%;
+    }
+    .info {
+        margin: 3%; width: 95%;
+    }
+    .info h1 {
+        padding-right: 2%;
+    }
+    .premios {
+        width: 95%;
+    }
+    .redes { 
+        width: 95%;
+    }
+    .redes h1 {
+        padding-right: 2%;
+    }
+}
+
+/* FIN CV */
+
+.doscol { padding: 20px; display:flex; flex-flow: wrap; justify-content: center; font-family: 'Fjalla One', sans-serif; }
+.doscol div { width: 35%;  border: 1px solid black;  box-sizing: border-box; }
+.doscol div img { width: 125px; height: 125px;float: left;  margin-right: 10px}
+.doscol h1 { text-align: center; margin-top: 25px; font-size: 25px;}
+.doscol h2 { text-align: center; font-size: 25px; padding-top: 10px;}
+.doscol h3 { text-align: center; margin-top: 25px; font-family: 'Fjalla One', sans-serif; font-size: 1.5em;}
+
+
+.fgris { background-color: rgba(255, 255, 255, 0.4); color: black;}
+.fnegro { background-color: rgba(0, 0, 0, 0.8); color: white;}
+.frojo { background-color: rgba(254, 0, 0, 0.8); color: yellow;}
+
+.albumsgris { margin-left: 2%; background-color: rgba(255, 255, 255, 0.4); color: black;}
+.albumsbeige { margin-left: 2%; background-color: rgba(236, 226, 198, 0.8); color: black;}
+.albumsazul { margin-left: 2%; background-color: rgba(0, 0, 255, 0.8); color: yellow;}
+.albumsblanco { margin-left: 2%; background-color: rgba(255, 255, 255, 0.8); color: darkblue;}
+.albumsnegro { margin-left: 2%; background-color: rgba(0, 0, 0, 0.8); color: white;}
+.albumsnaranja { margin-left: 2%; background-color: rgba(255, 128, 0, 0.8); color: black;}
+
